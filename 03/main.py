@@ -26,6 +26,15 @@ def part2(file: str) -> str:
 	# Split to three-line blocks
 	lines = file.split("\n")
 	chunks = [lines[i:i + 3] for i in range(0, len(lines), 3)]
-	### TODO: Loop through all the chunks and mirror them on the diagonal so its like 3 rows instead of 3 columns
-
-print(part1(read()))
+	file2 = []
+	for chunk in chunks:
+		# Split chunk to lines
+		chunk = [triangle.strip().replace("   ", " ").replace("  ", " ") for triangle in chunk]
+		# Split to ints
+		a1, b1, c1 = map(int, chunk[0].split(" "))
+		a2, b2, c2 = map(int, chunk[1].split(" "))
+		a3, b3, c3 = map(int, chunk[2].split(" "))
+		# Add to file		
+		file2.extend([f"{a1} {a2} {a3}", f"{b1} {b2} {b3}", f"{c1} {c2} {c3}"])
+	# Just pass the data to part 1 :)
+	return part1("\n".join(file2))
