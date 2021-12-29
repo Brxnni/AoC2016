@@ -60,5 +60,3 @@ def part2(file: str) -> int:
 	# Get distance from position to (0, 0)
 	distance = abs(position[0]) + abs(position[1])
 	return distance
-
-print("> Answer:", part2(read()))
