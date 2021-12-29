@@ -15,4 +15,4 @@ for file in ["sample.txt", "input.txt", "main.py", "puzzle.md"]:
     if not os.path.exists(filePath):
         open(filePath, "w+").close()
 with open(f"{path}\\{arg}\\main.py", "w") as file:
-    file.write("import os\n\ndef read() -> str:\n\tpath = \"\\\\\".join(os.path.realpath(__file__).split(\"\\\\\")[:-1])\n\twith open(f\"{path}\\\\input.txt\", \"r\") as file:\n\t\treturn file.read()")
+    file.write("import os\n\ndef read() -> str:\n\tpath = \"\\\\\".join(os.path.realpath(__file__).split(\"\\\\\")[:-1])\n\twith open(f\"{path}\\\\input.txt\", \"r\") as file:\n\t\treturn file.read().strip(\"\\n\")")
