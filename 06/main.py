@@ -3,7 +3,7 @@ import os
 def read() -> str:
 	path = "\\".join(os.path.realpath(__file__).split("\\")[:-1])
 	with open(f"{path}\\input.txt", "r") as file:
-		return file.read()
+		return file.read().strip("\n")
 
 def part1(file: str) -> str:
 	transmissions = file.split("\n")
