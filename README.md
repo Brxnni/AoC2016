@@ -1,4 +1,5 @@
 # AoC2016
+
 Advent of Code 2016. There's not much more to know.
 
 * Every day has its own folder.
