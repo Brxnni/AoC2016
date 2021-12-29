@@ -1,6 +1,5 @@
 import os
 import math
-from types import coroutine
 
 def read() -> str:
 	path = "\\".join(os.path.realpath(__file__).split("\\")[:-1])
