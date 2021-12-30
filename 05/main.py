@@ -41,5 +41,3 @@ def part2(string: str) -> str:
 
 sample = "abc"
 input = "ffykfhsq"
-
-print(part2(input))
