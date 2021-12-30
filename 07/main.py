@@ -58,5 +58,3 @@ def part2(file: str) -> int:
 		
 		if len(babs) > 0: validCount += 1
 	return validCount
-
-print(part2(read()))

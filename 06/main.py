@@ -30,5 +30,3 @@ def part2(file: str) -> str:
 		mostCommonChar = charCounts[0][0]
 		message += mostCommonChar
 	return message
-
-print(part2(read()))

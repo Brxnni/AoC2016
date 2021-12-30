@@ -37,6 +37,7 @@ def part2(file: str) -> int:
 				newRoomName += letters[(letters.index(letter) + sectorID) % 26]
 			else:
 				newRoomName += " "
+		# Return when done
 		if solution in newRoomName:
 			print(roomName, newRoomName, sectorID)
 			return sectorID
