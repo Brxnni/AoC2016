@@ -32,4 +32,4 @@ Based on your instructions, **what is the number of the bot** that is responsibl
 
 ## Part Two
 
-What do you get if you multiply together the values of one chip in each of outputs 0, 1, and 2?
+What do you get if you multiply together the values of one chip in each of outputs `0`, `1`, and `2`?
