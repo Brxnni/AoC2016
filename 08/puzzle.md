@@ -18,7 +18,7 @@ For example, here is a simple sequence on a smaller screen:
 
 - `rect 3x2` creates a small rectangle in the top-left corner:
 
-  ```
+  ```text
   ###....
   ###....
   .......
@@ -26,7 +26,7 @@ For example, here is a simple sequence on a smaller screen:
 
 - `rotate column x=1 by 1` rotates the second column down by one pixel:
   
-  ```
+  ```text
   #.#....
   ###....
   .#.....
@@ -34,7 +34,7 @@ For example, here is a simple sequence on a smaller screen:
 
 - `rotate row y=0 by 4` rotates the top row right by four pixels:
 
-  ```
+  ```text
   ....#.#
   ###....
   .#.....
@@ -42,7 +42,7 @@ For example, here is a simple sequence on a smaller screen:
 
 - `rotate column x=1 by 1` again rotates the second column down by one pixel, causing the bottom pixel to wrap back to the top:
 
-  ```
+  ```text
   .#..#.#
   #.#....
   .#.....

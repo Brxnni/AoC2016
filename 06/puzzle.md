@@ -8,7 +8,7 @@ In this model, the same message is sent repeatedly. You've recorded the repeatin
 
 All you need to do is figure out which character is most frequent for each position. For example, suppose you had recorded the following messages:
 
-```
+```text
 eedadn
 drvtee
 eandsr

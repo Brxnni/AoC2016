@@ -18,7 +18,7 @@ Now that you've helpfully marked up their design documents, it occurs to you tha
 
 For example, given the following specification, numbers with the same hundreds digit would be part of the same triangle:
 
-```
+```text
 101 301 501
 102 302 502
 103 303 503
