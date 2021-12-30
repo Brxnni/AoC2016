@@ -51,7 +51,7 @@ def part1(file: str) -> int:
 			display[rowIndex] = row
 		renderDisplay(display)
 
-	print(sum([row.count(True) for row in display]))
+	return sum([row.count(True) for row in display])
 
 # part2 doesnt exist because you need to read the output yourself
 # and i am not writing a function to analyze this ascii mess and
